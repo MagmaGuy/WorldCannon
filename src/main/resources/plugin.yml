@@ -1,0 +1,16 @@
+name: WorldCannon
+version: 0.0.1
+author: MagmaGuy
+main: com.magmaguy.worldcannon.WorldCannon
+api-version: 1.13
+softdepend: [WorldGuard]
+
+commands:
+  worldcannon:
+    description: Catch-all command
+    usage: /worldcannon
+    aliases: [wc]
+permissions:
+  worldcannon.set:
+    description: Allows players to run /wc set
+    default: op
